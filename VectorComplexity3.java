@@ -1,18 +1,11 @@
-import java.time.Instant;
 import java.util.Random;
-import java.util.Scanner;
 
 public class VectorComplexity3 {
     
     public static void main(String[] args) {
         int[] vector = new int[1000000];
-        int valor = 0;
-        int rep = 0;
         boolean changed = true;
 
-        Instant now1 = Instant.now();
-
-        Scanner keyboard = new Scanner(System.in);
         Random randInt = new Random();
 
         for (int indx=0;

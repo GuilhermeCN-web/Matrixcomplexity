@@ -16,7 +16,7 @@ public class VectorComplexity {
         int[] vector = new int[1000000]; 
         //int valor = 0;
 		//int rep = 0;
-		int indx = 0;
+		int indx;
         //Scanner keyboard = new Scanner(System.in);
         Random randInt = new Random();
 
